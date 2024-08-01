@@ -1,0 +1,40 @@
+1.B
+2. E
+3. J
+4. b
+5. d
+6. d
+7. a
+8. d
+9. d 
+10. a
+11.d
+
+
+3 Git is a version control system that assist developers track changes in their code and ensure collaboration with others. Git is a distributed version because it allows every developer to have a full copy of the project history on their local machine. It serves a lot of roles but the following are some of the benefits obtained from using git :
+
+a. Allow users to collaborate and work together on a project simultaneously without interfering in other's work.
+b. Fast performance since most of the operations are performed locally
+c. Handles projects of any size and supports various workflows thus making it very flexible.
+d. Ensures the integrity of the project history and prevents unauthorized changes. This can be further explained as ensuring the codebase remains consistent and reliable even when multiple people are contributing.
+e. Error recovery. If a mistake occurs, git allows users to rollback to a previous state or checkout to a previous commit, minimizing the risk of losing important work.
+
+In short, Git is the best practice in modern software development because it helps teams maintain a high-quality code and streamline their workflows.
+
+4. Provided the user has GitHub account, the following steps needs to be followed:
+a Navigate to user's GitHub account and click on create a new repository
+b. On the create new repository page, specify the name you intend to give to the repository and specify whether the repository will be public or private
+c. It is not mandatory to add a README file but in case you intend to add, check the Add a README file checkbox 
+d. Now you are good to create your repository. Click on create repository to create your remote repository
+
+To create a local repository, the following steps needs to be followed:
+a. Create the repository or directory by giving it a name of "frontend/backend project". (You can do so with the command "mkdir 'frontend/backend project' "and press enter key
+b. Navigate into the frontend/backend project directory using the command cd "frontend/backend project" (NB:Cheat sheet: You can improve your accuracy and reducing your effort and time by executing the same command as cd f<followed by a tab key to complete the rest of the typing>.) and press enter key
+c. Initialise your repository by typing the command git.init. This creates the .git directory which stores the repository metadata and version history. 
+d. To begin staging your changes, you can type the command git add . and press enter key
+e. To constantly track your activities, type the command git status ("this shows you the status or updates of your changes") and press enter key
+f. To enable git track your activities, type git commit -m "represents the message you intend to add to keep track of this changes. NB. The message you type here needs to have link with what you are committing in order to help you when you intend to rollback to fix something or checkout something" and press enter key. This will commit all the changes you have made to the repository.
+g. To push to the GitHub repository(remote) , you can add the remote URL using the git remote add origin https://github.com/(your-username on github)/(your-repository name.git)
+this will connect to the remote repository and press enter.
+to push to the repository, you type git push -u origin "the current branch name" and press enter. This pushes all the changes you have made locally to your remote repository.
+
